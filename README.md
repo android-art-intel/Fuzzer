@@ -1,5 +1,7 @@
 #Java* Fuzzer for Android* 
 
+Java* Fuzzer for Android* is a random Java tests generator intended to run on Android VM (Dalvik, ART). The tool compares the result of execution using JIT/AOT/interpreter modes or Java VM that allows to detect crashes, hangs and incorrect calculations. The main idea of the tool is to generate hundreds of thousands small random tests cover various cases using pre-defined test generator heuristics and provide a strong testing for Java VM compiler and runtime.
+
 ## Table of contents
 1. [Setup and maintenance](#setup-and-maintenance)
 2. [Android host build structure](#android-host-build-structure)
